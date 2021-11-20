@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir> <cache-dir>
 set -eo pipefail; [[ $TRACE ]] && set -x
-
-echo ".static"
+exit 0
